@@ -84,3 +84,4 @@ changePic.addEventListener("click", () => {
     profilePic.src = Photos[index]
 
 });
+
