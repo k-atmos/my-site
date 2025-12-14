@@ -1,0 +1,152 @@
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+a:hover {
+    color: lightseagreen;
+}
+#navtab {
+    text-align: center;
+}
+
+table {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+#tbl-left-column {
+    flex: 1;
+    width: 50%;
+    background-color: #181817;
+    padding: 20px;
+    border-radius: 15px;
+}
+#tbl-right-column {
+    flex: 2;
+    width: 50%;
+    background-color: #181817;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#home {
+    background-color: #2f2e2a;
+    padding: 30px;
+    border-radius: 15px;
+}
+#name {
+    color: ivory;
+}
+#job-title {
+    color: ivory;
+    font-style: italic;
+}
+#profile-img {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+#contact-info {
+    background-color: #2f2e2a;
+    padding: 30px;
+    border-radius: 15px;
+}
+#contact-info h3 {
+    font-style: bold;
+    color: ivory;
+}
+#contact-info p {
+    font-style: italic;
+    color: lightblue;
+}
+
+#skills-info {
+    background-color: #2f2e2a;
+    padding: 30px;
+    border-radius: 15px;
+}
+#skills-info h3 {
+    color: ivory;
+}
+#skills-info dt {
+    color: ivory;
+}
+
+#skills-info dd {
+    color: ivory;
+    padding-top: 10px;
+}
+
+#about {
+    background-color: #2f2e2a;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#about h2 {
+    color: ivory;
+}
+#about p {
+    color: ivory;
+    text-align: justify;
+}
+
+#form-area {
+    background-color: #2f2e2a;
+    padding: 30px;
+    border-radius: 15px;
+}
+#form-area h2, p, label{
+    color: ivory;
+}
+#form-area input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#form-area input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#message {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100px;
+}
+#form-area input[type="submit"] {
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#submit-button:hover {
+    color: black;
+}
+
+#footer-bottom {
+    background-color: #181817;
+    padding: 30px;
+    border-radius: 15px;
+}
+#footer-bottom p {
+    text-align: center;
+    color: ivory;
+}
+
+body {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
