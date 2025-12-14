@@ -68,7 +68,7 @@ const profilePic = document.getElementById("profile-img");
 const changePic = document.getElementById("changePicBtn");
 
 const Photos = [
-    "Kyroll.png",
+    "kyroll.png",
     "graduateKyroll.png",
     "formalKyroll.png"
 ];
@@ -82,4 +82,5 @@ changePic.addEventListener("click", () => {
     }
 
     profilePic.src = Photos[index]
+
 });
